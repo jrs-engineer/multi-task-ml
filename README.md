@@ -19,8 +19,8 @@ Sample embedding (first 5 dimensions of first sentence): tensor([-0.0781,  0.158
 ## Task 2: Multi-Task Learning Expansion
 
 - Extend the Sentence Transformer model to support multi-task learning.
-    - Task A: Sentence classification (e.g., "sports", "politics", "technology").
-    - Task B: Named Entity Recognition (NER) (e.g., "PERSON", "ORG", "LOC", "O").
+    - Task A: Sentence classification (e.g., "neural", "sports", "politics", "technology").
+    - Task B: Named Entity Recognition (NER) (e.g.,  "O", "PERSON", "ORG", "LOC").
 
 - **Architecture**:
     - Shared Backbone: BERT generates embeddings for both tasks.

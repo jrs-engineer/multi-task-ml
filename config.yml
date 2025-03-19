@@ -1,5 +1,5 @@
 model:
-  num_classes_task_a: 3        # Number of classes for Task A (e.g., classification)
+  num_classes_task_a: 4        # Number of classes for Task A (e.g., classification)
   num_labels_task_b: 4         # Number of labels for Task B (e.g., NER)
   freeze_backbone: true        # Freeze the BERT backbone (true/false)
 
